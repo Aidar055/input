@@ -1,0 +1,11 @@
+{
+  "posts": [
+    {
+      "name": "Aidar",
+      "lastname": "Bakytov",
+      "age": "18",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6kcrvbK_j_aAODmgj4Mg6J69WLxp28c8W3g&usqp=CAU",
+      "id": 1
+    }
+  ]
+}

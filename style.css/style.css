@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #212529;
+}
+header {
+  width: 100%;
+  background-color: black;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  align-items: center;
+}
+.header__logo {
+}
+.header__center span {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px; /* 100% */
+  text-transform: uppercase;
+}
+.header__center {
+  width: 320px;
+  display: flex;
+  justify-content: space-around;
+}
+.header__button button {
+  width: 153px;
+  height: 56px;
+  flex-shrink: 0;
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px; /* 100% */
+  text-transform: uppercase;
+}
+
+.add {
+  display: none;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container input {
+  display: block;
+  width: 100%;
+  height: calc(2.25rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: darkgray;
+  background-clip: padding-box;
+  border: 1px solid #bdbdbd;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.container button {
+  background-color: darkgray;
+  margin-left: 50px;
+  display: inline-flex;
+  height: 45px;
+  padding: 12px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  border: 1px solid #fff;
+}
+.smal_container {
+  display: none;
+}
+.smi_container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.inputs {
+  display: none;
+}
+.clis {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.smi_container {
+  width: 330px;
+  background-color: rgb(48, 51, 51);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: Evolventa;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 175% */
+}
+.delate_btn {
+  display: inline-flex;
+  padding: 10px 20px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 12px;
+  background: var(--Button, #333f57);
+  color: #fff;
+  font-family: Evolventa;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 175% */
+}
+.btnEdit {
+  display: inline-flex;
+  padding: 10px 28px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 12px;
+  background: var(--Button, #333f57);
+  color: #fff;
+  font-family: Evolventa;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 175% */
+}
+.inputsContaner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputsContaner input {
+  width: 200px;
+  padding: 10px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+.inputsContaner button {
+  display: inline-flex;
+  padding: 12px 32px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 12px;
+  background: var(--Button, #5282ff);
+  margin-left: ;
+}
